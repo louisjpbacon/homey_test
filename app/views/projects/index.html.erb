@@ -1,0 +1,22 @@
+<h1>Projects</h1>
+
+<a href="<%= new_project_path %>" class="btn btn-primary mb-3">New Project</a>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Created At</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @projects.each do |project| %>
+      <tr>
+        <td><%= link_to project.name, project_path(project) %></td>
+        <td><%= project.created_at.strftime("%B %d, %Y") %></td>
+        <td><%= link_to 'Show', project_path(project), class: 'bg-blue-100 text-blue-700 px-3 py-1 rounded' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
