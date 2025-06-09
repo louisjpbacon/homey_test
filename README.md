@@ -12,15 +12,15 @@ The project conversation history should list comments and changes in status.
 Please don’t spend any more than 3 hours on this task.
 
 ## Thoughts 
-I like to keep it simple. Didnt use scaffolding. 
-I am not a huge fan of STI so didnt use it even though its mentioned in the coding notion page. 
-I am not huge fan of "lets" in tests. Setup. run. teardown. Tests are not the place to be dry and fancy. 
-Decided against actiontext for the content of comments. kept it simple for now. 
-I have included system tests to cover the user facing components even though they are not that favourable these days by many. 
-Ignoring authentication and authorization for this test. Note therefore users are hard coded in application controller helper assigned to the comments and status changes. 
-Using sqlite for simplicity and speed for the test
-Did not add pagination for now. 
-Added bootstrap inline to layout file for speed. We can discuss security implications of this another time :-) 
+- I like to keep it simple. Didnt use scaffolding. 
+- I am not a huge fan of STI so didnt use it even though its mentioned in the coding notion page. 
+- I am not huge fan of "lets" in tests. Setup. run. teardown. Tests are not the place to be dry and fancy. 
+- Decided against actiontext for the content of comments. kept it simple for now. 
+- I have included system tests to cover the user facing components even though they are not that favourable these days by many. 
+- Ignoring authentication and authorization for this test. Note therefore users are hard coded in application controller helper assigned to the comments and status changes. 
+- Using sqlite for simplicity and speed for the test.
+- Did not add pagination for now. 
+- Added bootstrap inline to layout file for speed. We can discuss security implications of this another time.
 
 ## Improvements 
 1. Design/UI: I’d improve the styling with a consistent design system — maybe Tailwind UI. For the purposes of speed for me to build for the test I dropped bootstrap in to give it some instant styles. 
