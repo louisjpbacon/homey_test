@@ -11,25 +11,6 @@ The project conversation history should list comments and changes in status.
 
 Please don’t spend any more than 3 hours on this task.
 
-## Questions I would ask
-
-	•	What statuses can a project have?
-Expected answer: Something like ["not_started", "in_progress", "completed"].
-	•	Should comments and status changes be shown in the same conversation feed?
-Yes — the goal is to capture a full audit of the project’s conversation history.
-	•	Are comments editable/deletable?
-Not editable or deletable for now.
-	•	Should users be associated with comments/status changes?
-Yes. Track which user made which change or comment.
-	•	Should the feed be ordered chronologically?
-Yes, with newest at the bottom.
-•	Do we want both comments and status updates to be in the same feed?
-Yes we do. 
-
-## Assumptions
-Assumed we wanted a very simple way to add projects for testing purposes in this test.
-
-
 ## Thoughts 
 I like to keep it simple. Didnt use scaffolding. 
 I am not a huge fan of STI so didnt use it even though its mentioned in the coding notion page. 
